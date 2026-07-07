@@ -9,7 +9,8 @@ from telegram.constants import ParseMode
 logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = "8654604992:AAEXAYJlgjKuSDAufljDHdrVn30oC5Njj-Y"
+
 
 ASSETS = {
     "EURUSD": "EURUSD=X",
